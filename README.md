@@ -1,20 +1,8 @@
-# Guía Paso a Paso: Curriculum Vitae Interactivo y Responsive con HTML5 y CSS3
+# Curriculum Vitae Interactivo y Responsive con HTML5 y CSS3
 
 ---
 
-## Índice de la Guía
-1. **Fase 1: Estructura HTML5 Semántica Bloque a Bloque**
-2. **Fase 2: Estilos Base, Variables CSS y Modelo de Caja**
-3. **Fase 3: Recorte y Enmarcado Ovalado de la Fotografía de Perfil**
-4. **Fase 4: Maquetación Flexible y Grillas Adaptables (Flexbox & CSS Grid)**
-5. **Fase 5: Efectos Visuales Avanzados (Hover, Transiciones y Sombras 3D)**
-6. **Fase 6: Pseudo-elementos Decorativos y Animaciones `@keyframes`**
-7. **Fase 7: Diseño Adaptativo Completo (*Responsive Design* con Media Queries)**
-8. **Fase 8: Documento Final Completo Ensamblado**
-
----
-
-## Fase 1: Estructura HTML5 Semántica Bloque a Bloque
+## 1: Estructura HTML5 Semántica Bloque a Bloque
 
 Comenzamos creando la estructura HTML5 paso a paso. Se emplean elementos semánticos que aportan significado al contenido antes de aplicar cualquier estilo visual.
 
@@ -146,7 +134,7 @@ Concluimos el marcado HTML con la sección de contacto.
 
 ---
 
-## Fase 2: Estilos Base, Variables CSS y Modelo de Caja
+## 2: Estilos Base, Variables CSS y Modelo de Caja
 
 Archivo CSS (`styles.css`), con  un reset universal.
 
@@ -215,7 +203,7 @@ body {
 
 ---
 
-## Fase 3: Recorte y Enmarcado Ovalado de la Fotografía de Perfil
+## 3: Recorte y Enmarcado Ovalado de la Fotografía de Perfil
 
 Para tener una imagen **redondeada en forma de óvalo**, aplicamos una relación de aspecto asimétrica combinada con `border-radius` y recorte limpio.
 
@@ -254,7 +242,7 @@ Para tener una imagen **redondeada en forma de óvalo**, aplicamos una relación
 > * `flex-shrink: 0:` Se ordena al navegador que respete el tamaño original de ese elemento (definido por su ancho, alto o flex-basis) y que nunca lo haga más pequeño, sin importar si falta espacio en la pantalla. https://www.youtube.com/watch?v=HySjMxQ6dTk
 ---
 
-## Fase 4: Maquetación Flexible y Grillas Adaptables (Flexbox & CSS Grid)
+## 4: Maquetación Flexible y Grillas Adaptables (Flexbox & CSS Grid)
 
 La alineación de componentes utilizando Flexbox para encabezados y CSS Grid para arreglos de habilidades y proyectos.
 
@@ -355,7 +343,7 @@ Utilizar la función `repeat(auto-fit, minmax(...))` para lograr un comportamien
 
 ---
 
-## Fase 5: Efectos Visuales Avanzados (Hover, Transiciones y Sombras 3D)
+## 5: Efectos Visuales Avanzados (Hover, Transiciones y Sombras 3D)
 
 Se anade profundidad e interactividad mediante transformaciones tridimensionales y cambios de elevación de sombra al pasar el cursor.
 
@@ -405,7 +393,7 @@ Se anade profundidad e interactividad mediante transformaciones tridimensionales
 
 ---
 
-## Fase 6: Pseudo-elementos Decorativos y Animaciones `@keyframes`
+## 6: Pseudo-elementos Decorativos y Animaciones `@keyframes`
 
 Detalles de diseño con pseudo-elementos (`::after`) y animación de entrada progresiva.
 
@@ -467,12 +455,12 @@ Detalles de diseño con pseudo-elementos (`::after`) y animación de entrada pro
 ```
 
 > **Explicación:**
-> * `@keyframes fadeInUp`: Define una secuencia de estados de animación. En la fase inicial (`from`), el contenedor es invisible (`opacity: 0`) y está desplazado 20px abajo. En el estado final (`to`), se vuelve completamente visible y recupera su posición natural.
+> * `@keyframes fadeInUp`: Define una secuencia de estados de animación. En la inicial (`from`), el contenedor es invisible (`opacity: 0`) y está desplazado 20px abajo. En el estado final (`to`), se vuelve completamente visible y recupera su posición natural.
 > * `forwards`: Hace que el elemento conserve de forma permanente los estilos del último fotograma de la animación (`to`) al finalizar.
 
 ---
 
-## Fase 7: Diseño Adaptativo Completo (*Responsive Design* con Media Queries)
+## 7: Diseño Adaptativo Completo (*Responsive Design* con Media Queries)
 
 Para asegurar que el Curriculum Vitae se adapte a dispositivos móviles, tabletas y computadoras de escritorio, agregamos puntos de interrupción (*breakpoints*) mediante `@media`.
 
@@ -536,7 +524,7 @@ Para asegurar que el Curriculum Vitae se adapte a dispositivos móviles, tableta
 
 ---
 
-## Fase 8: Documento Final Completo Ensamblado
+## 8: Documento Final Completo Ensamblado
 
 A continuación se presenta el código completo integrado listo para ser guardado y probado en un navegador web.
 
