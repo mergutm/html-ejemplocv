@@ -19,6 +19,10 @@
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
+
+
+
 /* Modo Oscuro Automático */
 @media (prefers-color-scheme: dark) {
     :root {
@@ -145,7 +149,7 @@ body {
 }
 
 .skill-badge {
-    background-color: var(--card-bg);
+    background-color: #f1f5f9;
     color: var(--primary-color);
     padding: 0.6rem 1rem;
     border-radius: 8px;
@@ -172,7 +176,7 @@ body {
 }
 
 .project-card {
-    background: var(--card-bg);
+    background: #f8fafc;
     border: 1px solid #e2e8f0;
     border-left: 4px solid var(--accent-color);
     padding: 1.25rem;
